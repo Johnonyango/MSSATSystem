@@ -22,6 +22,8 @@ public class TC_Projections_004 extends BaseClass{
 //        projections.clickMenu();
 //        try {
             projections.clickProjections();
+            logger.info("Land on the projections home page");
+
             projections.enterInvestmentRate(10);
             projections.enterInflationRate(16);
             projections.enterSalaryRate(15);
